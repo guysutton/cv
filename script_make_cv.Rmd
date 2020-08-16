@@ -1,0 +1,430 @@
+---
+name: Guy Frederick Sutton
+# surname: Curie
+position: "Ph.D. Candidate"
+address: "Center for Biological Control, Rhodes University, South Africa"
+phone: "(+27)825524643"
+# Add website with code below
+# www: mariecurie.com
+email: "g.sutton@.ru.ac.za"
+twitter: Guy_F_Sutton
+github: guysutton
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+urlcolor: blue
+linkcolor: red
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+
+# Function to produce very basic table, no lines or headings
+baretable <- function(tbl, digits = 0,
+                      include.colnames=FALSE, include.rownames=FALSE,
+                      hline.after=NULL,
+                      size = getOption("xtable.size", NULL),
+                      add.to.row =  getOption("xtable.add.to.row", NULL),
+                      ...) {
+  tbl %>%
+    xtable::xtable(digits = digits, ...) %>%
+    print(
+      include.colnames = include.colnames,
+      include.rownames = include.rownames,
+      hline.after = hline.after,
+      comment = FALSE,
+      latex.environments = NULL,
+      floating = FALSE,
+      size=size,
+      add.to.row=add.to.row,
+      sanitize.text.function = function(x) {
+        x
+      }
+    )
+}
+```
+
+# RESEARCH INTERESTS 
+
+&nbsp;    
+
+I am a Research Entomologist currently based at the Center for Biological Control at Rhodes University in South Africa. My research combines extensive fieldwork, with laboratory experiments and statistical models to develop, implement and evaluate practical management options for controlling invasive alien plants, primarily using insects and fungal pathogens as biological control agents. 
+
+&nbsp;
+
+I have a strong interest in data science/data analysis. I develop and teach a range of statistics courses and workshops, and provide expertise to students and faculty on appropriate and rigorous statistical analyses. Additionally, I develop and maintain two `R` packages for mapping species distributions and sample size calculations. All my workshops and developmental versions of my `R` packages are available on my [\underline{GitHub}](https://github.com/guysutton) profile. 
+
+&nbsp;    
+
+# PROFESSIONAL APPOINTMENTS
+
+```{r}
+
+#tribble(
+#  ~ degree, ~ uni, ~ loc, ~ dates,  
+#  "Research Entomologist", " ", "Rhodes University - Uitenhage, South Africa", "2020 - present"
+#) %>% 
+#  detailed_entries(degree, dates, uni, loc)
+
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates,
+  "Research Entomologist", 
+  " ", 
+  "Rhodes University - Uitenhage, South Africa", 
+  "2020 - present"
+  ) %>% 
+  detailed_entries(degree, dates, uni, loc)
+
+```
+          
+# EDUCATION
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, 
+  "Ph.D. (Entomology)", "Submitted", "Rhodes University - Grahamstown, South Africa", "2017 - present", 
+  "M.Sc. (Entomology)", "", "Rhodes University - Grahamstown, South Africa", "2016",
+  "B.Sc. (Hons) (Entomology)", "Awarded with Academic Half Colours", "Rhodes University - Grahamstown, South Africa", "2015",
+  "B.Sc. (Entomology and Microbiology)", "Awarded with Distinction", "Rhodes University - Grahamstown, South Africa", "2012-2014"
+) %>% 
+  detailed_entries(degree, dates, uni, loc)
+```
+
+# PEER-REVIEWED PUBLICATIONS
+&nbsp;    
+7\. Martin, G.D., Magengelele, N.L., Paterson, I.D., **Sutton, G.F.** (2020). Climate modelling suggests a review of the legal status of Brazilian pepper *Schinus terebinthifolia* in South Africa is required. *South African Journal of Botany* 132: 95-102. [\underline{PDF}](https://https://www.sciencedirect.com/science/article/abs/pii/S025462992030123X) 
+&nbsp;    
+&nbsp;  
+6\. **Sutton, G.F.**, Canavan, K., Day, M.D., Den Breeyen, A., Cristofaro, M., McConnachie, A., Goolsby, J.A., & Paterson, I.D. (2019). Grasses as suitable targets for classical weed  biological control. *BioControl* 64: 605-622. [\underline{PDF}](https://link.springer.com/article/10.1007/s10526-019-09968-8) 
+&nbsp;    
+&nbsp;  
+5\. **Sutton, G.F.** (2019). Searching for a needle in a haystack: where to survey for climatically-matched biological control agents for two grasses (*Sporobolus* spp.) invading Australia. *Biological Control* 129: 37-44. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964418306480)
+&nbsp;    
+&nbsp;  
+4\. **Sutton, G.F.**, Klein, H., & Paterson, I.D. (2018). Evaluating the efficacy of *Hypogeococcus* sp. as a biological control agent of the cactaceous weed *Cereus jamacaru* in South Africa. *BioControl* 63: 493-503. [\underline{PDF}](https://link.springer.com/article/10.1007/s10526-018-9887-3)
+&nbsp;    
+&nbsp;  
+3\. **Sutton, G.F.**, Paterson, I.D., & Paynter, Q. (2017). Genetic matching of invasive populations of the African tulip tree, *Spathodea campanulata* Beauv. (Bignoniaceae), to their native distribution: maximising the likelihood of selecting host-compatible biological control agents. *Biological Control* 114: 167-175. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964417301810)
+&nbsp;    
+&nbsp;  
+2\. **Sutton, G.F.**, Paterson, I.D., Compton, S.G., & Paynter, Q. (2017). Predicting the risk of non-target damage to a close relative of a target weed using sequential no- choice tests, paired-choice tests and olfactory discrimination experiments. *Biocontrol Science and Technology* 27: 364-377. [\underline{PDF}](https://www.tandfonline.com/doi/abs/10.1080/09583157.2017.1291907)
+&nbsp;    
+&nbsp;  
+1\. **Sutton, G.F.**, Compton, S.G., & Coetzee, J.A. (2016). Naturally occurring phytopathogens enhance biological control of water hyacinth (*Eichhornia crassipes*) by *Megamelus scutellaris* (Hemiptera: Delphacidae), even in eutrophic water. *Biological Control* 103: 261-268. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964416301840)
+
+&nbsp;
+&nbsp;
+
+# MANUSCRIPTS IN-PROGRESS/REVIEW[^1] 
+
+[^1]: Manuscripts *in preperation* are complete to the point where a full-draft is available.
+
+&nbsp;
+
+**In Review/Press**
+
+&nbsp;  
+
+1\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. Field-based ecological studies to assess prospective biological control agents for invasive alien plants: an example from giant rat's tail grass. Under review at *Journal of Applied Ecology* (as of 07/07/2020). 
+
+&nbsp;  
+
+2\. Chikowore, G., Mutamiswa, R., **Sutton, G.F.**, Martin, G.D., Chidawanyika, F. Impacts of invasive alien tree, *Robinia pseudoacacia* L. (Fabaceae) on vegetation community functional structure and grazing capacity in high elevation grasslands of South Africa. Submitted to *Journal of Applied Ecology* (as of 13/08/2020). 
+
+&nbsp;  
+&nbsp;    
+
+**In preparation**
+
+&nbsp;  
+
+1\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. Disturbance negatively affects specialist but not generalist grass-associated insects: implications for biological control of invasive grasses. In preparation for *BioControl Science and Technology*. 
+
+&nbsp;
+
+2\. Canavan, C., Paterson, I.D., Ivey, P., **Sutton, G.F.**, & Hill, M.P. Prioritisation of targets for weed biological control III: Prioritising South Africa's regulated alien plants for biological control. In preparation for *BioControl Science and Technology*. 
+
+&nbsp;  
+
+# CONFERENCE PROCEEDINGS
+
+&nbsp;  
+
+1\. Paynter, Q., Poeschko, M., Mitchell, C., Probst, C., Barreto, R.W., 
+Colman, A.A., Macedo, D., Dodd, S., Johnson, T., McCormack, G., Paterson, I.D.,
+**Sutton, G.F.**, & Winks, C.J. (2018). A weed biocontrol program for the Cook Islands: progress report. 
+In: Hinz, H.L., Bon, M.C., Bourdot, G., Cristofaro, M., Desurmont, G.,
+Kurose, D., Muller-Scharer, H., Rafter, M., Schaffner, U., Seier, M., Sforza, R.F.H., Smith, L., Stutz, S., Thomas, S., Weyl, P., & Winston, R. (Eds.), 
+*Proceedings of the XV International Symposium on the Biological Control of Weeds*, Engelberg, Switzerland, pp. 74-81. 
+
+&nbsp;
+
+# CONFERENCE PRESENTATIONS
+
+&nbsp;
+
+8\. **Sutton, G.F.**, Canavan, K., Visser, V., & Paterson, I.D. (2020). Invasive grasses as suitable biological control targets: a South African perspective. *46th South African Association of Botanists Annual Conference*, 8-10th Janaury 2020, Qwa-Qwa, South Africa. (*Presented*).
+&nbsp;    
+&nbsp;  
+7\. **Sutton, G.F.**, Canavan, K., & Paterson, I.D. (2019). Are grasses suitable targets for biological control?: a case-study of two African grasses (*Sporobolus* spp.) invading Australia. *46th National Symposium on Biological Invasions in southern Africa*, 15th to 17th May 2019, Tulbagh, South Africa. (*Presented*). 
+&nbsp;    
+&nbsp;  
+6\. **Sutton, G.F.**, Chari, L., & Canavan, K. (2018). Invasive grasses and classical weed biological control: are we missing a trick? *Invasive Grass Working Group Meeting*, 25th to 27th September 2018, Cape Town, South Africa. (*Presented*). 
+&nbsp;    
+&nbsp;  
+5\. **Sutton, G.F.**, Day, M.D., Canavan, K., & Paterson, I.D. (2018). Prospects for the biological control of invasive rat's tail grasses (*Sporobolus* spp.) in Australia. *XV International Symposium on the Biological Control of Weeds*, 26-31 August 2018, Engelberg, Switzerland. (*Presented*). 
+&nbsp;    
+&nbsp;  
+4\. **Sutton, G.F.**, Canavan, K., & Paterson, I.D. (2017). Are invasive grasses good targets for biological control?: A case study of two African *Sporobolus* spp. invading Australia. *52nd Annual Congress of the Grassland Society of Southern Africa*, 23-28 July 2017, Hoedspruit, South Africa. (*Presented*). 
+&nbsp;    
+&nbsp;  
+3\. **Sutton, G.F.**, Klein, H., & Paterson, I.D. (2017). Does *Hypogeococcus festerianus* (Hemiptera: Pseudococcidae) successfully control the cactaceous weed *Cereus jamacaru* in South Africa? *44th Annual Research Symposium on the Management of Biological Invasions in Southern Africa*, 3-7 July 2017, Pretoria, South Africa. (*Presented*). 
+&nbsp;    
+&nbsp;  
+2\. Paterson, I.D., Paynter, Q., **Sutton, G.F.**, & Mpekula, O. (2015). Potential biological control agents for *Spathodea campanulata* (Bignoniaceae). *XIX Congress of the Entomological Society of Southern Africa*, Rhodes University, Grahamstown, South Africa. (*Contributed data*). 
+&nbsp;    
+&nbsp;  
+1\. **Sutton, G.F.**, Timm, A.E., & Paterson, I.D. (2015). Determination of the origin of two invasive populations of African Tulip Tree using ISSR and AFLP molecular markers. *XIX Congress of the Entomological Society of Southern Africa*, Rhodes University, Grahamstown, South Africa. (*Presented*). 
+
+&nbsp;
+
+# TEACHING EXPERIENCE
+
+&nbsp;
+
+**Introduction to R for biologists**
+\hfill 2020-present
+&nbsp;  
+*6-week post-graduate statistics course*
+&nbsp;    
+
+> * As co-instructor, I developed a series of lectures for this 6-week honours-level course on linear modeling in R.    
+> * These lectures introduce students to common statistical analyses used in the field of ecology, including: linear regression, ANOVA, ANCOVA and more complex linear models (e.g. binomial GLM, poisson GLM), and demonstrate how to code these
+analyses in R, including: model diagnostics and evaluation, inference and
+producing publication-quality written summaries and visualisations. 
+
+&nbsp; 
+
+**R Statistics Club**
+\hfill 2019-present
+&nbsp;  
+*Weekly departmental R users group*
+&nbsp;    
+
+> * I develop and present weekly 1-1.5 hour statistics workshops, primarily
+using the R statistical software, to graduate students and faculty.    
+
+> * These workshops are driven by the needs of the attendees, covering topics
+including: data management/curation, data cleaning, linear modelling,
+multivariate analyses, data visualisation and spatial analyses
+(e.g. mapping). All workshops and code are made publicly available, and
+are available on my [\underline{GitHub}](https://github.com/guysutton) profile.
+
+&nbsp;  
+
+**Practical Demonstrator**, Cellular Biology / Molecular Biology / Zoology / Entomology \hfill 2015-present
+&nbsp;  
+*Rhodes University, Department of Zoology and Entomology*
+&nbsp;    
+
+> * Assisted 1^st^ year undergraduate students with fundamental cellular biology techniques and methods using experimental procedures, including: microscopy, scientific drawing, slide preparation, and scientific writing.     
+
+> * Demonstrated various aspects of 2^nd^ and 3^rd^ year Zoology and Entomology course practical laboratory classes, including: genetic techniques, forensic entomology, insect specimen curation, and biological control. 
+
+&nbsp;
+
+# AWARDS
+
+&nbsp;
+
+**Best Student Presentation** \hfill 2017
+&nbsp;  
+*Annual Biological Invasions of Southern Africa Symposium*
+&nbsp;  
+
+**The Ewer Award for Zoology** \hfill 2016
+&nbsp;  
+*Rhodes University - Department of Zoology & Entomology*
+
+**Best Honours Student in Entomology** \hfill 2016
+&nbsp;  
+*Entomological Society of Southern Africa*
+
+**Beth Cummings Award - Best Student Research Project** \hfill 2014
+&nbsp;  
+*Rhodes University - Department of Zoology & Entomology*
+
+**Best Final Year Microbiology Project** \hfill 2014
+&nbsp;  
+*Rhodes University - Department of Microbiology & Biochemistry*
+
+**JC van Hille Award for Academic Excellence** \hfill 2013
+&nbsp;  
+*Rhodes University - Department of Zoology & Entomology*
+
+&nbsp;
+
+# SCHOLARSHIPS AND GRANTS
+
+&nbsp;
+
+**Post-Graduate Scholarship** \hfill R 30 000 p.a.
+&nbsp;  
+2017-present
+&nbsp;  
+*Queensland Department of Fisheries and Forestry* 
+
+**Henderson Prestigious Post-Graduate Scholarship** \hfill R 90 000 p.a.
+&nbsp;  
+2015, 2017-2018
+&nbsp;  
+*Rhodes University* 
+
+**Henry Bradlow Scholarship** \hfill R 90 000
+&nbsp;  
+2016
+&nbsp;  
+*Rhodes University*
+
+**Department of Environmental Affairs Bursary** \hfill R 90 000
+&nbsp;  
+2016
+&nbsp;  
+*Department of Environmental Affairs*
+
+**Honours Degree Scholarship** \hfill R 45 000
+&nbsp;  
+2015
+&nbsp;  
+*Rhodes University* 
+
+
+\begin{flushright}
+
+Total: R 585 000
+
+\end{flushright}
+
+&nbsp;  
+
+
+# SOFTWARE DEVELOPMENT
+
+&nbsp;
+
+## **R Package: ThermalSampleR**
+
+&nbsp;    
+
+> * ThermalSampleR is an `R` package I wrote and maintain that performs a
+range of Monte Carlo simulations and bootstrap resampling procedures to aid sample size planning for determining critical thermal limits (e.g. CTmin/CTmax) of biological organisms.
+
+&nbsp;
+
+## **R Package: sapiaR**
+
+&nbsp;    
+
+> * sapiaR is an `R` package I wrote and maintain that automates the calculation of summary statistics and plotting the characteristic distribution maps derived from the South Africa Plant Invaders Atlas (SAPIA), that are used in numerous publications on invasive plants in South Africa.
+
+&nbsp;
+
+# PROFESSIONAL SERVICE
+
+&nbsp;
+
+## Journal Reviewer (n = 8 papers)
+
+Biological Invasions (2 papers), BioControl (1 paper), Biocontrol Science and Technology (1 paper), Plant Ecology (1 paper), The Rangeland Journal (1 paper), South African Journal of Botany (1 paper), Environmental Monitoring and Assessment (1 paper)
+
+&nbsp; 
+
+## Workshops attended
+
+**ATSC stage-based demographic modelling course** \hfill January 2019
+&nbsp;  
+*Oxford University, Oxford, United Kingdom*
+&nbsp;  
+
+> * Attended a week-long course delivered by Prof. Rob Salguero-Gomez (Oxford University), Prof. Stephen Ellner (Cornell University), Prof. Mark Rees (Sheffield University) and colleagues that taught attendees how to build, analyse and interpret stage-based demographic models, with particular emphasis on integral projection models, using the R statistical platform 
+
+**Grass identification course** \hfill September 2018
+&nbsp;  
+*University of Cape Town, Cape Town, South Africa*
+&nbsp;  
+
+> * Attended a single-day workshop on the identification of grasses of Southern Africa delivered by Dr. Lyn Fish and Dr. Caroline Mashau (South African National Biodiversity Institute; SANBI)
+
+&nbsp; 
+
+## Professional memberships
+
+&nbsp;
+
+**Entomological Society of South Africa** \hfill 2014-present
+&nbsp;  
+**Alien Grass Working Group of South Africa**  \hfill2017-present 
+
+&nbsp;  
+
+# OUTREACH
+
+&nbsp;
+
+**Mentor**,  \hfill 2015, 2017
+&nbsp;  
+*Entomological Society of Southern Africa Student Outreach Programme*
+&nbsp;    
+
+> * Assisted in laboratory set-up, specimen collection and preservation, and practical demonstrations of several aspects of entomology to local Grahamstown school groups
+
+**Student Assistant**, \hfill 2015, 2016
+&nbsp;  
+*Rhodes University, WILDreach Society*
+&nbsp;    
+
+> * Aided in specimen collection, curation and preservation techniques, and practical demonstrations and explanations of general aspects of entomology and undergraduate biology to local school groups    
+
+&nbsp; 
+
+# SKILLS
+
+&nbsp; 
+
+*Computer*: R Statistics, markdown, git/GitHub, Julia (beginner)
+
+&nbsp;  
+
+*Language*: English (fluent)
+
+&nbsp;  
+
+# ACADEMIC REFEREES
+
+&nbsp;
+
+1. **Dr. Iain Paterson** - *Ph.D. Advisor* 
+&nbsp;   
+Center for Biological Control, Rhodes University (Grahamstown, South Africa)
+&nbsp;   
+Email: <I.Paterson@ru.ac.za>; Tel: (+27)825524643
+
+2. **Prof. Martin Hill** - *Advisor*
+&nbsp;   
+Center for Biological Control, Rhodes University (Grahamstown, South Africa)
+&nbsp;   
+Email: <m.p.hill@ru.ac.za>; Tel: (+27)825524643
+
+3. **Hildegard Klein** - *M.Sc. Advisor*
+&nbsp;   
+Agricultural Research Council - Plant Protection Research Institute (Pretoria, South Africa)
+&nbsp;   
+Email: <KleinH@arc.co.za>; Tel: (+27)825524643
+
+4. **Michael Day** - *Project Leader*
+&nbsp;   
+Biosecurity Queensland, Department of Agriculture and Fisheries (Brisbane, Australia)
+&nbsp;   
+Email: <Michael.Day@daf.qld.gov.au>, Tel: (07) 3708 8553 / 61 7 3708 8553
