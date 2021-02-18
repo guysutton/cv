@@ -84,7 +84,7 @@ tribble(
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, 
-  "Ph.D. (Entomology)", "Submitted", "Rhodes University - Grahamstown, South Africa", "2017 - present", 
+  "Ph.D. (Entomology)", " ", "Rhodes University - Grahamstown, South Africa", "2017 - 2021", 
   "M.Sc. (Entomology)", "", "Rhodes University - Grahamstown, South Africa", "2016",
   "B.Sc. (Hons) (Entomology)", "Awarded with Academic Half Colours", "Rhodes University - Grahamstown, South Africa", "2015",
   "B.Sc. (Entomology and Microbiology)", "Awarded with Distinction", "Rhodes University - Grahamstown, South Africa", "2012-2014"
@@ -93,7 +93,13 @@ tribble(
 ```
 
 # PEER-REVIEWED PUBLICATIONS
+&nbsp;  
+9\. Chikowore, G., Mutamiswa, R., Martin, G.D., **Sutton, G.F.**, Chidawanyika, F. (2021). Reduction of grazing index in high elevation grasslands following  Black locust  invasion in  South Africa. *Rangeland Ecology and Management*. **In press**. 
 &nbsp;    
+&nbsp;  
+8\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. (2021). Field-based ecological studies to assess prospective biological control agents for invasive alien plants: an example from giant rat's tail grass. *Journal of Applied Ecology*. **In press**. [\underline{PDF}](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13834) 
+&nbsp;    
+&nbsp;  
 7\. Martin, G.D., Magengelele, N.L., Paterson, I.D., **Sutton, G.F.** (2020). Climate modelling suggests a review of the legal status of Brazilian pepper *Schinus terebinthifolia* in South Africa is required. *South African Journal of Botany* 132: 95-102. [\underline{PDF}](https://https://www.sciencedirect.com/science/article/abs/pii/S025462992030123X) 
 &nbsp;    
 &nbsp;  
@@ -116,37 +122,6 @@ tribble(
 
 &nbsp;
 &nbsp;
-
-# MANUSCRIPTS IN-PROGRESS/REVIEW[^1] 
-
-[^1]: Manuscripts *in preperation* are complete to the point where a full-draft is available.
-
-&nbsp;
-
-**In Review/Press**
-
-&nbsp;  
-
-1\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. Field-based ecological studies to assess prospective biological control agents for invasive alien plants: an example from giant rat's tail grass. Under review at *Journal of Applied Ecology* (as of 07/07/2020). 
-
-&nbsp;  
-
-2\. Chikowore, G., Mutamiswa, R., **Sutton, G.F.**, Martin, G.D., Chidawanyika, F. Impacts of invasive alien tree, *Robinia pseudoacacia* L. (Fabaceae) on vegetation community functional structure and grazing capacity in high elevation grasslands of South Africa. Submitted to *Journal of Applied Ecology* (as of 13/08/2020). 
-
-&nbsp;  
-&nbsp;    
-
-**In preparation**
-
-&nbsp;  
-
-1\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. Disturbance negatively affects specialist but not generalist grass-associated insects: implications for biological control of invasive grasses. In preparation for *BioControl Science and Technology*. 
-
-&nbsp;
-
-2\. Canavan, C., Paterson, I.D., Ivey, P., **Sutton, G.F.**, & Hill, M.P. Prioritisation of targets for weed biological control III: Prioritising South Africa's regulated alien plants for biological control. In preparation for *BioControl Science and Technology*. 
-
-&nbsp;  
 
 # CONFERENCE PROCEEDINGS
 
