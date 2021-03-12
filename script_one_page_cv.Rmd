@@ -1,0 +1,110 @@
+---
+name: Guy Frederick Sutton
+# surname: Curie
+position: "Ph.D. Candidate"
+address: "Center for Biological Control, Rhodes University, South Africa"
+phone: "(+27)825524643"
+# Add website with code below
+# www: mariecurie.com
+email: "g.sutton@.ru.ac.za"
+twitter: Guy_F_Sutton
+github: guysutton
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+urlcolor: blue
+linkcolor: red
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+
+# Function to produce very basic table, no lines or headings
+baretable <- function(tbl, digits = 0,
+                      include.colnames=FALSE, include.rownames=FALSE,
+                      hline.after=NULL,
+                      size = getOption("xtable.size", NULL),
+                      add.to.row =  getOption("xtable.add.to.row", NULL),
+                      ...) {
+  tbl %>%
+    xtable::xtable(digits = digits, ...) %>%
+    print(
+      include.colnames = include.colnames,
+      include.rownames = include.rownames,
+      hline.after = hline.after,
+      comment = FALSE,
+      latex.environments = NULL,
+      floating = FALSE,
+      size=size,
+      add.to.row=add.to.row,
+      sanitize.text.function = function(x) {
+        x
+      }
+    )
+}
+```
+
+# PROFESSIONAL APPOINTMENTS
+
+```{r}
+
+#tribble(
+#  ~ degree, ~ uni, ~ loc, ~ dates,  
+#  "Research Entomologist", " ", "Rhodes University - Uitenhage, South Africa", "2020 - present"
+#) %>% 
+#  detailed_entries(degree, dates, uni, loc)
+
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates,
+  "Research Entomologist", 
+  " ", 
+  "Rhodes University - Uitenhage, South Africa", 
+  "2020 - present"
+  ) %>% 
+  detailed_entries(degree, dates, uni, loc)
+
+```
+          
+# EDUCATION
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, 
+  "Ph.D. (Entomology)", " ", "Rhodes University - Grahamstown, South Africa", "2017 - 2021", 
+  "M.Sc. (Entomology)", "", "Rhodes University - Grahamstown, South Africa", "2016",
+  "B.Sc. (Hons) (Entomology)", "Awarded with Academic Half Colours", "Rhodes University - Grahamstown, South Africa", "2015",
+  "B.Sc. (Entomology and Microbiology)", "Awarded with Distinction", "Rhodes University - Grahamstown, South Africa", "2012-2014"
+) %>% 
+  detailed_entries(degree, dates, uni, loc)
+```
+
+# RECENT PUBLICATIONS
+&nbsp;  
+9\. Chikowore, G., Mutamiswa, R., Martin, G.D., **Sutton, G.F.**, Chidawanyika, F. (2021). Reduction of grazing index in high elevation grasslands following  Black locust  invasion in  South Africa. *Rangeland Ecology and Management*. **In press**. 
+&nbsp;    
+&nbsp;  
+8\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. (2021). Field-based ecological studies to assess prospective biological control agents for invasive alien plants: an example from giant rat's tail grass. *Journal of Applied Ecology*. **In press**. [\underline{PDF}](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13834) 
+&nbsp;    
+&nbsp;  
+7\. Martin, G.D., Magengelele, N.L., Paterson, I.D., **Sutton, G.F.** (2020). Climate modelling suggests a review of the legal status of Brazilian pepper *Schinus terebinthifolia* in South Africa is required. *South African Journal of Botany* 132: 95-102. [\underline{PDF}](https://https://www.sciencedirect.com/science/article/abs/pii/S025462992030123X) 
+&nbsp;    
+&nbsp;  
+6\. **Sutton, G.F.**, Canavan, K., Day, M.D., Den Breeyen, A., Cristofaro, M., McConnachie, A., Goolsby, J.A., & Paterson, I.D. (2019). Grasses as suitable targets for classical weed  biological control. *BioControl* 64: 605-622. [\underline{PDF}](https://link.springer.com/article/10.1007/s10526-019-09968-8) 
+&nbsp;    
+&nbsp;  
+5\. **Sutton, G.F.** (2019). Searching for a needle in a haystack: where to survey for climatically-matched biological control agents for two grasses (*Sporobolus* spp.) invading Australia. *Biological Control* 129: 37-44. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964418306480)
+&nbsp;    
+&nbsp;  
+4\. **Sutton, G.F.**, Klein, H., & Paterson, I.D. (2018). Evaluating the efficacy of *Hypogeococcus* sp. as a biological control agent of the cactaceous weed *Cereus jamacaru* in South Africa. *BioControl* 63: 493-503. [\underline{PDF}](https://link.springer.com/article/10.1007/s10526-018-9887-3)
+&nbsp;    
+&nbsp;  
+3\. **Sutton, G.F.**, Paterson, I.D., & Paynter, Q. (2017). Genetic matching of invasive populations of the African tulip tree, *Spathodea campanulata* Beauv. (Bignoniaceae), to their native distribution: maximising the likelihood of selecting host-compatible biological control agents. *Biological Control* 114: 167-175. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964417301810)
+&nbsp;    
+&nbsp;  
+2\. **Sutton, G.F.**, Paterson, I.D., Compton, S.G., & Paynter, Q. (2017). Predicting the risk of non-target damage to a close relative of a target weed using sequential no- choice tests, paired-choice tests and olfactory discrimination experiments. *Biocontrol Science and Technology* 27: 364-377. [\underline{PDF}](https://www.tandfonline.com/doi/abs/10.1080/09583157.2017.1291907)
+&nbsp;    
+&nbsp;  
+1\. **Sutton, G.F.**, Compton, S.G., & Coetzee, J.A. (2016). Naturally occurring phytopathogens enhance biological control of water hyacinth (*Eichhornia crassipes*) by *Megamelus scutellaris* (Hemiptera: Delphacidae), even in eutrophic water. *Biological Control* 103: 261-268. [\underline{PDF}](https://www.sciencedirect.com/science/article/pii/S1049964416301840)
+
