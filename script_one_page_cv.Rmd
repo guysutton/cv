@@ -82,6 +82,9 @@ tribble(
 
 # RECENT PUBLICATIONS
 &nbsp;  
+10\. Canavan, K., Hill, M.P., Ivey, P., **Sutton, G.F.**, Paterson, I.D. (2021). Prioritisation of targets for weed biological control III: A tool to identify the next targets for biological control in South Africa and set priorities for resource allocation. *Biocontrol Science and Technology*. **In press**. 
+&nbsp;    
+&nbsp;  
 9\. Chikowore, G., Mutamiswa, R., Martin, G.D., **Sutton, G.F.**, Chidawanyika, F. (2021). Reduction of grazing index in high elevation grasslands following  Black locust  invasion in  South Africa. *Rangeland Ecology and Management*. **In press**. 
 &nbsp;    
 &nbsp;  
