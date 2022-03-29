@@ -94,16 +94,22 @@ tribble(
 
 # PEER-REVIEWED PUBLICATIONS
 &nbsp;  
-12\. **Sutton, G.F.**, Bownes, A., Visser, V., Mapaura, A., & Canavan, K. (2021). Progress and prospects for the biological control of invasive alien grasses (Poaceae) in South Africa. *African Entomology*. **Accepted**. 
-&nbsp;    
-&nbsp;   
-11. Olckers, T., Egli, D., Martin, G.D., Paterson, I.D., **Sutton, G.F.**, & Wood, A.R. (2021). Biological control of South African plants that are invasive elsewhere in the world. *African Entomology*. **Accepted**. 
-&nbsp;    
-&nbsp;   
-10\. Canavan, K., Hill, M.P., Ivey, P., **Sutton, G.F.**, Paterson, I.D. (2021). Prioritisation of targets for weed biological control III: A tool to identify the next targets for biological control in South Africa and set priorities for resource allocation. *Biocontrol Science and Technology* 31: 584-601. 
+14\. van Steenderen, C.V.S., & **Sutton, G.F.** SPEDE-sampler: an R Shiny application to assess how methodological choices and taxon-sampling can affect Generalised Mixed Yule Coalescent (GMYC) output and interpretation. *Molecular Ecology Resources* **In Press, 20/01/2021**. [\underline{PDF}](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13591)
 &nbsp;    
 &nbsp;  
-9\. Chikowore, G., Mutamiswa, R., Martin, G.D., **Sutton, G.F.**, & Chidawanyika, F. (2021). Reduction of grazing index in high elevation grasslands following  Black locust  invasion in  South Africa. *Rangeland Ecology and Management* 76: 109-117. 
+13\. Canavan, K., Canavan, S., Clark, V.R., Gwate, O., Richardson, D.M., **Sutton, G.F.**, & Martin, G.D. (2021). The alien plants that threaten South Africa's mountain ecosystems. *Land* 10: e1393. [\underline{PDF}](https://www.mdpi.com/2073-445X/10/12/1393)
+&nbsp;    
+&nbsp;  
+12\. **Sutton, G.F.**, Bownes, A., Visser, V., Mapaura, A., & Canavan, K. (2021). Progress and prospects for the biological control of invasive alien grasses (Poaceae) in South Africa. *African Entomology* 29: 837-858. [\underline{PDF}](https://bioone.org/journals/african-entomology/volume-29/issue-3/003.029.0837/Progress-and-Prospects-for-the-Biological-Control-of-Invasive-Alien/10.4001/003.029.0837.short)
+&nbsp;    
+&nbsp;   
+11. Olckers, T., Coetzee, J.A., Egli, D., Martin, G.D., Paterson, I.D., **Sutton, G.F.**, & Wood, A.R. (2021). Biological control of South African plants that are invasive elsewhere in the world. *African Entomology* 29: 1005-1029. [\underline{PDF}](https://bioone.org/journals/african-entomology/volume-29/issue-3/003.029.1005/Biological-Control-of-South-African-Plants-that-are-Invasive-Elsewhere/10.4001/003.029.1005.short)
+&nbsp;    
+&nbsp;   
+10\. Canavan, K., Hill, M.P., Ivey, P., **Sutton, G.F.**, Paterson, I.D. (2021). Prioritisation of targets for weed biological control III: A tool to identify the next targets for biological control in South Africa and set priorities for resource allocation. *Biocontrol Science and Technology* 31: 584-601. [\underline{PDF}](https://www.tandfonline.com/doi/abs/10.1080/09583157.2021.1918638)
+&nbsp;    
+&nbsp;  
+9\. Chikowore, G., Mutamiswa, R., Martin, G.D., **Sutton, G.F.**, & Chidawanyika, F. (2021). Reduction of grazing index in high elevation grasslands following  Black locust  invasion in  South Africa. *Rangeland Ecology and Management* 76: 109-117. [\underline{PDF}](https://www.sciencedirect.com/science/article/abs/pii/S1550742421000221)
 &nbsp;    
 &nbsp;  
 8\. **Sutton, G.F.**, Canavan, K., Day, M.D., & Paterson, I.D. (2021). Field-based ecological studies to assess prospective biological control agents for invasive alien plants: an example from giant rat's tail grass. *Journal of Applied Ecology* 58: 1043-1054. [\underline{PDF}](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13834) 
@@ -263,79 +269,79 @@ are available on my [\underline{GitHub}](https://github.com/guysutton) profile.
 
 &nbsp;
 
-# AWARDS
+<!-- # AWARDS -->
 
-&nbsp;
+<!-- &nbsp; -->
 
-**Best Student Presentation** \hfill 2017
-&nbsp;  
-*Annual Biological Invasions of Southern Africa Symposium*
-&nbsp;  
+<!-- **Best Student Presentation** \hfill 2017 -->
+<!-- &nbsp;   -->
+<!-- *Annual Biological Invasions of Southern Africa Symposium* -->
+<!-- &nbsp;   -->
 
-**The Ewer Award for Zoology** \hfill 2016
-&nbsp;  
-*Rhodes University - Department of Zoology & Entomology*
+<!-- **The Ewer Award for Zoology** \hfill 2016 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University - Department of Zoology & Entomology* -->
 
-**Best Honours Student in Entomology** \hfill 2016
-&nbsp;  
-*Entomological Society of Southern Africa*
+<!-- **Best Honours Student in Entomology** \hfill 2016 -->
+<!-- &nbsp;   -->
+<!-- *Entomological Society of Southern Africa* -->
 
-**Beth Cummings Award - Best Student Research Project** \hfill 2014
-&nbsp;  
-*Rhodes University - Department of Zoology & Entomology*
+<!-- **Beth Cummings Award - Best Student Research Project** \hfill 2014 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University - Department of Zoology & Entomology* -->
 
-**Best Final Year Microbiology Project** \hfill 2014
-&nbsp;  
-*Rhodes University - Department of Microbiology & Biochemistry*
+<!-- **Best Final Year Microbiology Project** \hfill 2014 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University - Department of Microbiology & Biochemistry* -->
 
-**JC van Hille Award for Academic Excellence** \hfill 2013
-&nbsp;  
-*Rhodes University - Department of Zoology & Entomology*
+<!-- **JC van Hille Award for Academic Excellence** \hfill 2013 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University - Department of Zoology & Entomology* -->
 
-&nbsp;
+<!-- &nbsp; -->
 
-# SCHOLARSHIPS AND GRANTS
+<!-- # SCHOLARSHIPS AND GRANTS -->
 
-&nbsp;
+<!-- &nbsp; -->
 
-**Post-Graduate Scholarship** \hfill R 30 000 p.a.
-&nbsp;  
-2017-present
-&nbsp;  
-*Queensland Department of Fisheries and Forestry* 
+<!-- **Post-Graduate Scholarship** \hfill R 30 000 p.a. -->
+<!-- &nbsp;   -->
+<!-- 2017-present -->
+<!-- &nbsp;   -->
+<!-- *Queensland Department of Fisheries and Forestry*  -->
 
-**Henderson Prestigious Post-Graduate Scholarship** \hfill R 90 000 p.a.
-&nbsp;  
-2015, 2017-2018
-&nbsp;  
-*Rhodes University* 
+<!-- **Henderson Prestigious Post-Graduate Scholarship** \hfill R 90 000 p.a. -->
+<!-- &nbsp;   -->
+<!-- 2015, 2017-2018 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University*  -->
 
-**Henry Bradlow Scholarship** \hfill R 90 000
-&nbsp;  
-2016
-&nbsp;  
-*Rhodes University*
+<!-- **Henry Bradlow Scholarship** \hfill R 90 000 -->
+<!-- &nbsp;   -->
+<!-- 2016 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University* -->
 
-**Department of Environmental Affairs Bursary** \hfill R 90 000
-&nbsp;  
-2016
-&nbsp;  
-*Department of Environmental Affairs*
+<!-- **Department of Environmental Affairs Bursary** \hfill R 90 000 -->
+<!-- &nbsp;   -->
+<!-- 2016 -->
+<!-- &nbsp;   -->
+<!-- *Department of Environmental Affairs* -->
 
-**Honours Degree Scholarship** \hfill R 45 000
-&nbsp;  
-2015
-&nbsp;  
-*Rhodes University* 
+<!-- **Honours Degree Scholarship** \hfill R 45 000 -->
+<!-- &nbsp;   -->
+<!-- 2015 -->
+<!-- &nbsp;   -->
+<!-- *Rhodes University*  -->
 
 
-\begin{flushright}
+<!-- \begin{flushright} -->
 
-Total: R 585 000
+<!-- Total: R 585 000 -->
 
-\end{flushright}
+<!-- \end{flushright} -->
 
-&nbsp;  
+<!-- &nbsp;   -->
 
 
 # SOFTWARE DEVELOPMENT
@@ -363,16 +369,19 @@ range of Monte Carlo simulations and bootstrap resampling procedures to aid samp
 
 &nbsp;
 
-## (9) Review for peer-reviewed journals (n = 9 papers)
+## Review for peer-reviewed journals (n = 14 papers)
 
-- Biological Invasions (2 papers) 
+- Biological Invasions (3 papers) 
+- Austral Ecology (2 papers)
 - Biological Control (1 paper)
 - BioControl (1 paper) 
-- Biocontrol Science and Technology (1 paper), 
+- Biocontrol Science and Technology (1 paper)
 - Plant Ecology (1 paper) 
+- Arthropod-Plant Interactions (1 paper)
 - The Rangeland Journal (1 paper)
 - South African Journal of Botany (1 paper)
 - Environmental Monitoring and Assessment (1 paper)
+- Management of Biological Invasions (1 paper)
 
 &nbsp; 
 
@@ -408,7 +417,7 @@ range of Monte Carlo simulations and bootstrap resampling procedures to aid samp
 
 &nbsp; 
 
-*Computer*: R Statistics, markdown, git/GitHub, Julia (beginner)
+*Computer*: R Statistics, markdown, git/GitHub, Julia
 
 &nbsp;  
 
